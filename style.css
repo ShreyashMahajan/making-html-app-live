@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -21,7 +22,8 @@ body {
 
 .link {
     text-decoration:none;
-    padding : 0.5rem 0rem;
+    padding : 0.5rem 0.5rem;
+    
 }
 
 .link-primary {
@@ -98,7 +100,7 @@ body {
 /* section */
 
 section {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 section h1 {
@@ -108,5 +110,21 @@ section h1 {
 
 .ow {
     background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color:white;
+}
+
+footer ul {
+    padding-inline-start: 0px;
 }
 
